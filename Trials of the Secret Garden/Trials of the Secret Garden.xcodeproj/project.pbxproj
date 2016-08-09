@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E78601D59C22300BF53B4 /* AppDelegate.swift */; };
+		325E78631D59C22300BF53B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 325E78621D59C22300BF53B4 /* GameScene.sks */; };
+		325E78651D59C22300BF53B4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E78641D59C22300BF53B4 /* GameScene.swift */; };
+		325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E78661D59C22300BF53B4 /* GameViewController.swift */; };
+		325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E78681D59C22300BF53B4 /* Main.storyboard */; };
+		325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325E786B1D59C22300BF53B4 /* Assets.xcassets */; };
+		325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E786D1D59C22300BF53B4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		325E78601D59C22300BF53B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		325E78621D59C22300BF53B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		325E78641D59C22300BF53B4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		325E78661D59C22300BF53B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		325E78691D59C22300BF53B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325E786B1D59C22300BF53B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325E786E1D59C22300BF53B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		325E78701D59C22300BF53B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325E785A1D59C22300BF53B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325E78541D59C22300BF53B4 = {
+			isa = PBXGroup;
+			children = (
+				325E785F1D59C22300BF53B4 /* Trials of the Secret Garden */,
+				325E785E1D59C22300BF53B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		325E785E1D59C22300BF53B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325E785F1D59C22300BF53B4 /* Trials of the Secret Garden */ = {
+			isa = PBXGroup;
+			children = (
+				325E78601D59C22300BF53B4 /* AppDelegate.swift */,
+				325E78621D59C22300BF53B4 /* GameScene.sks */,
+				325E78641D59C22300BF53B4 /* GameScene.swift */,
+				325E78661D59C22300BF53B4 /* GameViewController.swift */,
+				325E78681D59C22300BF53B4 /* Main.storyboard */,
+				325E786B1D59C22300BF53B4 /* Assets.xcassets */,
+				325E786D1D59C22300BF53B4 /* LaunchScreen.storyboard */,
+				325E78701D59C22300BF53B4 /* Info.plist */,
+			);
+			path = "Trials of the Secret Garden";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325E785C1D59C22300BF53B4 /* Trials of the Secret Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325E78731D59C22300BF53B4 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden" */;
+			buildPhases = (
+				325E78591D59C22300BF53B4 /* Sources */,
+				325E785A1D59C22300BF53B4 /* Frameworks */,
+				325E785B1D59C22300BF53B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trials of the Secret Garden";
+			productName = "Trials of the Secret Garden";
+			productReference = 325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325E78551D59C22300BF53B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yixiong Fang";
+				TargetAttributes = {
+					325E785C1D59C22300BF53B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2Z347X3J25;
+					};
+				};
+			};
+			buildConfigurationList = 325E78581D59C22300BF53B4 /* Build configuration list for PBXProject "Trials of the Secret Garden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325E78541D59C22300BF53B4;
+			productRefGroup = 325E785E1D59C22300BF53B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325E785C1D59C22300BF53B4 /* Trials of the Secret Garden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325E785B1D59C22300BF53B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325E78631D59C22300BF53B4 /* GameScene.sks in Resources */,
+				325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */,
+				325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */,
+				325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325E78591D59C22300BF53B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325E78651D59C22300BF53B4 /* GameScene.swift in Sources */,
+				325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */,
+				325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		325E78681D59C22300BF53B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325E78691D59C22300BF53B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325E786D1D59C22300BF53B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325E786E1D59C22300BF53B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		325E78711D59C22300BF53B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		325E78721D59C22300BF53B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		325E78741D59C22300BF53B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Trials of the Secret Garden/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		325E78751D59C22300BF53B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Trials of the Secret Garden/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325E78581D59C22300BF53B4 /* Build configuration list for PBXProject "Trials of the Secret Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325E78711D59C22300BF53B4 /* Debug */,
+				325E78721D59C22300BF53B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325E78731D59C22300BF53B4 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325E78741D59C22300BF53B4 /* Debug */,
+				325E78751D59C22300BF53B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325E78551D59C22300BF53B4 /* Project object */;
+}
