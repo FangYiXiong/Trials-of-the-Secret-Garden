@@ -14,6 +14,13 @@
 		325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E78681D59C22300BF53B4 /* Main.storyboard */; };
 		325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325E786B1D59C22300BF53B4 /* Assets.xcassets */; };
 		325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E786D1D59C22300BF53B4 /* LaunchScreen.storyboard */; };
+		325F57211D59C74700D9AA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57201D59C74700D9AA89 /* AppDelegate.swift */; };
+		325F57231D59C74700D9AA89 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 325F57221D59C74700D9AA89 /* GameScene.sks */; };
+		325F57251D59C74700D9AA89 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57241D59C74700D9AA89 /* GameScene.swift */; };
+		325F57271D59C74700D9AA89 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57261D59C74700D9AA89 /* GameViewController.swift */; };
+		325F57291D59C74700D9AA89 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325F57281D59C74700D9AA89 /* Game.xcassets */; };
+		325F572C1D59C74700D9AA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325F572A1D59C74700D9AA89 /* Main.storyboard */; };
+		325F572E1D59C74800D9AA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325F572D1D59C74800D9AA89 /* Assets.xcassets */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73B1D59C4CC0014AA26 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B73A1D59C4CC0014AA26 /* GameScene.swift */; };
 		32E1B73D1D59C4CC0014AA26 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73C1D59C4CC0014AA26 /* GameScene.sks */; };
@@ -31,6 +38,15 @@
 		325E786B1D59C22300BF53B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		325E786E1D59C22300BF53B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		325E78701D59C22300BF53B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325F571E1D59C74700D9AA89 /* Trials of the Secret Garden tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		325F57201D59C74700D9AA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		325F57221D59C74700D9AA89 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		325F57241D59C74700D9AA89 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		325F57261D59C74700D9AA89 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		325F57281D59C74700D9AA89 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		325F572B1D59C74700D9AA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325F572D1D59C74800D9AA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325F572F1D59C74800D9AA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73A1D59C4CC0014AA26 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -42,6 +58,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		325E785A1D59C22300BF53B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325F571B1D59C74700D9AA89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +86,7 @@
 			children = (
 				325E785F1D59C22300BF53B4 /* Trials of the Secret Garden */,
 				32E1B7371D59C4CC0014AA26 /* Trials of the Secret Garden OSX */,
+				325F571F1D59C74700D9AA89 /* Trials of the Secret Garden tvOS */,
 				325E785E1D59C22300BF53B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +96,7 @@
 			children = (
 				325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */,
 				32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */,
+				325F571E1D59C74700D9AA89 /* Trials of the Secret Garden tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +114,21 @@
 				325E78701D59C22300BF53B4 /* Info.plist */,
 			);
 			path = "Trials of the Secret Garden";
+			sourceTree = "<group>";
+		};
+		325F571F1D59C74700D9AA89 /* Trials of the Secret Garden tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				325F57201D59C74700D9AA89 /* AppDelegate.swift */,
+				325F57221D59C74700D9AA89 /* GameScene.sks */,
+				325F57241D59C74700D9AA89 /* GameScene.swift */,
+				325F57261D59C74700D9AA89 /* GameViewController.swift */,
+				325F57281D59C74700D9AA89 /* Game.xcassets */,
+				325F572A1D59C74700D9AA89 /* Main.storyboard */,
+				325F572D1D59C74800D9AA89 /* Assets.xcassets */,
+				325F572F1D59C74800D9AA89 /* Info.plist */,
+			);
+			path = "Trials of the Secret Garden tvOS";
 			sourceTree = "<group>";
 		};
 		32E1B7371D59C4CC0014AA26 /* Trials of the Secret Garden OSX */ = {
@@ -124,6 +164,23 @@
 			productReference = 325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */;
 			productType = "com.apple.product-type.application";
 		};
+		325F571D1D59C74700D9AA89 /* Trials of the Secret Garden tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325F57321D59C74800D9AA89 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden tvOS" */;
+			buildPhases = (
+				325F571A1D59C74700D9AA89 /* Sources */,
+				325F571B1D59C74700D9AA89 /* Frameworks */,
+				325F571C1D59C74700D9AA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trials of the Secret Garden tvOS";
+			productName = "Trials of the Secret Garden tvOS";
+			productReference = 325F571E1D59C74700D9AA89 /* Trials of the Secret Garden tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		32E1B7351D59C4CC0014AA26 /* Trials of the Secret Garden OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E1B7461D59C4CC0014AA26 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden OSX" */;
@@ -155,6 +212,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 2Z347X3J25;
 					};
+					325F571D1D59C74700D9AA89 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2Z347X3J25;
+					};
 					32E1B7351D59C4CC0014AA26 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -175,6 +236,7 @@
 			targets = (
 				325E785C1D59C22300BF53B4 /* Trials of the Secret Garden */,
 				32E1B7351D59C4CC0014AA26 /* Trials of the Secret Garden OSX */,
+				325F571D1D59C74700D9AA89 /* Trials of the Secret Garden tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +250,17 @@
 				325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */,
 				325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */,
 				325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325F571C1D59C74700D9AA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325F572C1D59C74700D9AA89 /* Main.storyboard in Resources */,
+				325F57231D59C74700D9AA89 /* GameScene.sks in Resources */,
+				325F572E1D59C74800D9AA89 /* Assets.xcassets in Resources */,
+				325F57291D59C74700D9AA89 /* Game.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +284,16 @@
 				325E78651D59C22300BF53B4 /* GameScene.swift in Sources */,
 				325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */,
 				325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325F571A1D59C74700D9AA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325F57251D59C74700D9AA89 /* GameScene.swift in Sources */,
+				325F57271D59C74700D9AA89 /* GameViewController.swift in Sources */,
+				325F57211D59C74700D9AA89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +323,14 @@
 				325E786E1D59C22300BF53B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		325F572A1D59C74700D9AA89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325F572B1D59C74700D9AA89 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		32E1B7401D59C4CC0014AA26 /* MainMenu.xib */ = {
@@ -360,6 +451,36 @@
 			};
 			name = Release;
 		};
+		325F57301D59C74800D9AA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Trials of the Secret Garden tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		325F57311D59C74800D9AA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Trials of the Secret Garden tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 		32E1B7441D59C4CC0014AA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +532,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		325F57321D59C74800D9AA89 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325F57301D59C74800D9AA89 /* Debug */,
+				325F57311D59C74800D9AA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		32E1B7461D59C4CC0014AA26 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -418,6 +547,7 @@
 				32E1B7451D59C4CC0014AA26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
