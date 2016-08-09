@@ -14,6 +14,11 @@
 		325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E78681D59C22300BF53B4 /* Main.storyboard */; };
 		325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325E786B1D59C22300BF53B4 /* Assets.xcassets */; };
 		325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E786D1D59C22300BF53B4 /* LaunchScreen.storyboard */; };
+		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
+		32E1B73B1D59C4CC0014AA26 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B73A1D59C4CC0014AA26 /* GameScene.swift */; };
+		32E1B73D1D59C4CC0014AA26 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73C1D59C4CC0014AA26 /* GameScene.sks */; };
+		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
+		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +31,24 @@
 		325E786B1D59C22300BF53B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		325E786E1D59C22300BF53B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		325E78701D59C22300BF53B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32E1B73A1D59C4CC0014AA26 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		32E1B73C1D59C4CC0014AA26 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E1B7411D59C4CC0014AA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32E1B7431D59C4CC0014AA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		325E785A1D59C22300BF53B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E1B7331D59C4CC0014AA26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				325E785F1D59C22300BF53B4 /* Trials of the Secret Garden */,
+				32E1B7371D59C4CC0014AA26 /* Trials of the Secret Garden OSX */,
 				325E785E1D59C22300BF53B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */,
+				32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +89,19 @@
 				325E78701D59C22300BF53B4 /* Info.plist */,
 			);
 			path = "Trials of the Secret Garden";
+			sourceTree = "<group>";
+		};
+		32E1B7371D59C4CC0014AA26 /* Trials of the Secret Garden OSX */ = {
+			isa = PBXGroup;
+			children = (
+				32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */,
+				32E1B73A1D59C4CC0014AA26 /* GameScene.swift */,
+				32E1B73C1D59C4CC0014AA26 /* GameScene.sks */,
+				32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */,
+				32E1B7401D59C4CC0014AA26 /* MainMenu.xib */,
+				32E1B7431D59C4CC0014AA26 /* Info.plist */,
+			);
+			path = "Trials of the Secret Garden OSX";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +124,23 @@
 			productReference = 325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */;
 			productType = "com.apple.product-type.application";
 		};
+		32E1B7351D59C4CC0014AA26 /* Trials of the Secret Garden OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E1B7461D59C4CC0014AA26 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden OSX" */;
+			buildPhases = (
+				32E1B7321D59C4CC0014AA26 /* Sources */,
+				32E1B7331D59C4CC0014AA26 /* Frameworks */,
+				32E1B7341D59C4CC0014AA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trials of the Secret Garden OSX";
+			productName = "Trials of the Secret Garden OSX";
+			productReference = 32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,6 +154,9 @@
 					325E785C1D59C22300BF53B4 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 2Z347X3J25;
+					};
+					32E1B7351D59C4CC0014AA26 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -120,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				325E785C1D59C22300BF53B4 /* Trials of the Secret Garden */,
+				32E1B7351D59C4CC0014AA26 /* Trials of the Secret Garden OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +191,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32E1B7341D59C4CC0014AA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */,
+				32E1B73D1D59C4CC0014AA26 /* GameScene.sks in Resources */,
+				32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,6 +211,15 @@
 				325E78651D59C22300BF53B4 /* GameScene.swift in Sources */,
 				325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */,
 				325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E1B7321D59C4CC0014AA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E1B73B1D59C4CC0014AA26 /* GameScene.swift in Sources */,
+				32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +240,14 @@
 				325E786E1D59C22300BF53B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		32E1B7401D59C4CC0014AA26 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E1B7411D59C4CC0014AA26 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +360,36 @@
 			};
 			name = Release;
 		};
+		32E1B7441D59C4CC0014AA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Trials of the Secret Garden OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32E1B7451D59C4CC0014AA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Trials of the Secret Garden OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosinit.Trials-of-the-Secret-Garden-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -295,6 +407,15 @@
 			buildConfigurations = (
 				325E78741D59C22300BF53B4 /* Debug */,
 				325E78751D59C22300BF53B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E1B7461D59C4CC0014AA26 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E1B7441D59C4CC0014AA26 /* Debug */,
+				32E1B7451D59C4CC0014AA26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
