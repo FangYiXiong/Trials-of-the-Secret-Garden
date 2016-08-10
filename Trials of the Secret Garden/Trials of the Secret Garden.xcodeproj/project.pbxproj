@@ -64,6 +64,15 @@
 		325F57781D5ACD3500D9AA89 /* SGScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57751D5ACD3500D9AA89 /* SGScene.swift */; };
 		325F577C1D5AD07C00D9AA89 /* IOS_Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F577A1D5AD07C00D9AA89 /* IOS_Responder.swift */; };
 		325F57801D5AD07C00D9AA89 /* OSX_Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F577B1D5AD07C00D9AA89 /* OSX_Responder.swift */; };
+		325F57841D5AD11D00D9AA89 /* SGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57821D5AD11D00D9AA89 /* SGExtensions.swift */; };
+		325F57851D5AD11D00D9AA89 /* SGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57821D5AD11D00D9AA89 /* SGExtensions.swift */; };
+		325F57861D5AD11D00D9AA89 /* SGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57821D5AD11D00D9AA89 /* SGExtensions.swift */; };
+		325F57871D5AD11D00D9AA89 /* SGResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57831D5AD11D00D9AA89 /* SGResolution.swift */; };
+		325F57881D5AD11D00D9AA89 /* SGResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57831D5AD11D00D9AA89 /* SGResolution.swift */; };
+		325F57891D5AD11D00D9AA89 /* SGResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57831D5AD11D00D9AA89 /* SGResolution.swift */; };
+		325F578B1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
+		325F578C1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
+		325F578D1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
 		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
@@ -101,6 +110,9 @@
 		325F57751D5ACD3500D9AA89 /* SGScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGScene.swift; sourceTree = "<group>"; };
 		325F577A1D5AD07C00D9AA89 /* IOS_Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOS_Responder.swift; sourceTree = "<group>"; };
 		325F577B1D5AD07C00D9AA89 /* OSX_Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSX_Responder.swift; sourceTree = "<group>"; };
+		325F57821D5AD11D00D9AA89 /* SGExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGExtensions.swift; sourceTree = "<group>"; };
+		325F57831D5AD11D00D9AA89 /* SGResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGResolution.swift; sourceTree = "<group>"; };
+		325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGGameSettings.swift; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -294,6 +306,8 @@
 		325F57731D59CA9B00D9AA89 /* SK-Engine */ = {
 			isa = PBXGroup;
 			children = (
+				325F57821D5AD11D00D9AA89 /* SGExtensions.swift */,
+				325F57831D5AD11D00D9AA89 /* SGResolution.swift */,
 				325F57791D5ACFD500D9AA89 /* SGSceneResponders */,
 				325F57751D5ACD3500D9AA89 /* SGScene.swift */,
 			);
@@ -303,6 +317,7 @@
 		325F57741D59CAA600D9AA89 /* SK-Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */,
 			);
 			name = "SK-Controllers";
 			sourceTree = "<group>";
@@ -471,8 +486,11 @@
 				325F577C1D5AD07C00D9AA89 /* IOS_Responder.swift in Sources */,
 				325F57551D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
 				325F575B1D59CA9100D9AA89 /* SKAction+Extensions.swift in Sources */,
+				325F57871D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57611D59CA9100D9AA89 /* SKColor+Extensions.swift in Sources */,
 				325F57371D59C7C500D9AA89 /* GameScene.swift in Sources */,
+				325F578B1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
+				325F57841D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57581D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
 				325F57641D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				325F57671D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
@@ -488,7 +506,10 @@
 			files = (
 				325F57781D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325F57251D59C74700D9AA89 /* GameScene.swift in Sources */,
+				325F57861D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
+				325F57891D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57541D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
+				325F578D1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F576F1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
 				325F576C1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
 				325F57601D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
@@ -511,7 +532,10 @@
 			files = (
 				325F575F1D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F576B1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
+				325F57851D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
+				325F57881D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57561D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
+				325F578C1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F57771D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325F57361D59C7C500D9AA89 /* GameScene.swift in Sources */,
 				325F57801D5AD07C00D9AA89 /* OSX_Responder.swift in Sources */,
