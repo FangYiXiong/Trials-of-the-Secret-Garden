@@ -70,6 +70,9 @@
 		325F578B1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
 		325F578C1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
 		325F578D1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */; };
+		325F57971D5AD9C900D9AA89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 325F579B1D5AD9C900D9AA89 /* Localizable.strings */; };
+		325F57981D5AD9C900D9AA89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 325F579B1D5AD9C900D9AA89 /* Localizable.strings */; };
+		325F57991D5AD9C900D9AA89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 325F579B1D5AD9C900D9AA89 /* Localizable.strings */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
 		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
@@ -109,6 +112,11 @@
 		325F57821D5AD11D00D9AA89 /* SGExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGExtensions.swift; sourceTree = "<group>"; };
 		325F57831D5AD11D00D9AA89 /* SGResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGResolution.swift; sourceTree = "<group>"; };
 		325F578A1D5AD2B400D9AA89 /* SGGameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGGameSettings.swift; sourceTree = "<group>"; };
+		325F57931D5AD99700D9AA89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		325F57941D5AD99700D9AA89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		325F57951D5AD99700D9AA89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		325F57961D5AD99700D9AA89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		325F579A1D5AD9C900D9AA89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -256,6 +264,7 @@
 		325F573E1D59C95C00D9AA89 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				325F579B1D5AD9C900D9AA89 /* Localizable.strings */,
 			);
 			name = Content;
 			sourceTree = "<group>";
@@ -441,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				325E786F1D59C22300BF53B4 /* LaunchScreen.storyboard in Resources */,
+				325F57971D5AD9C900D9AA89 /* Localizable.strings in Resources */,
 				325E786C1D59C22300BF53B4 /* Assets.xcassets in Resources */,
 				325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */,
 			);
@@ -451,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				325F572C1D59C74700D9AA89 /* Main.storyboard in Resources */,
+				325F57991D5AD9C900D9AA89 /* Localizable.strings in Resources */,
 				325F572E1D59C74800D9AA89 /* Assets.xcassets in Resources */,
 				325F57291D59C74700D9AA89 /* Game.xcassets in Resources */,
 			);
@@ -461,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */,
+				325F57981D5AD9C900D9AA89 /* Localizable.strings in Resources */,
 				32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +566,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				325E78691D59C22300BF53B4 /* Base */,
+				325F57931D5AD99700D9AA89 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -562,6 +575,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				325E786E1D59C22300BF53B4 /* Base */,
+				325F57941D5AD99700D9AA89 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -570,14 +584,24 @@
 			isa = PBXVariantGroup;
 			children = (
 				325F572B1D59C74700D9AA89 /* Base */,
+				325F57961D5AD99700D9AA89 /* zh-Hans */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325F579B1D5AD9C900D9AA89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325F579A1D5AD9C900D9AA89 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		32E1B7401D59C4CC0014AA26 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				32E1B7411D59C4CC0014AA26 /* Base */,
+				325F57951D5AD99700D9AA89 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
