@@ -59,6 +59,9 @@
 		325F57701D59CA9100D9AA89 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F574E1D59CA9100D9AA89 /* Vector3.swift */; };
 		325F57711D59CA9100D9AA89 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F574E1D59CA9100D9AA89 /* Vector3.swift */; };
 		325F57721D59CA9100D9AA89 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F574E1D59CA9100D9AA89 /* Vector3.swift */; };
+		325F57761D5ACD3500D9AA89 /* SGScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57751D5ACD3500D9AA89 /* SGScene.swift */; };
+		325F57771D5ACD3500D9AA89 /* SGScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57751D5ACD3500D9AA89 /* SGScene.swift */; };
+		325F57781D5ACD3500D9AA89 /* SGScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F57751D5ACD3500D9AA89 /* SGScene.swift */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
 		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
@@ -93,6 +96,7 @@
 		325F574C1D59CA9100D9AA89 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		325F574D1D59CA9100D9AA89 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		325F574E1D59CA9100D9AA89 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		325F57751D5ACD3500D9AA89 /* SGScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGScene.swift; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 		325F57731D59CA9B00D9AA89 /* SK-Engine */ = {
 			isa = PBXGroup;
 			children = (
+				325F57751D5ACD3500D9AA89 /* SGScene.swift */,
 			);
 			name = "SK-Engine";
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325F57761D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */,
 				325F57521D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
 				325F576D1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
@@ -465,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325F57781D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325F57251D59C74700D9AA89 /* GameScene.swift in Sources */,
 				325F57541D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
 				325F576F1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
@@ -490,6 +497,7 @@
 				325F575F1D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F576B1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
 				325F57561D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
+				325F57771D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325F57361D59C7C500D9AA89 /* GameScene.swift in Sources */,
 				325F575C1D59CA9100D9AA89 /* SKAction+Extensions.swift in Sources */,
 				325F57621D59CA9100D9AA89 /* SKColor+Extensions.swift in Sources */,
@@ -745,6 +753,7 @@
 				325F57311D59C74800D9AA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32E1B7461D59C4CC0014AA26 /* Build configuration list for PBXNativeTarget "Trials of the Secret Garden OSX" */ = {
 			isa = XCConfigurationList;
