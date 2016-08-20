@@ -10,40 +10,14 @@ import SpriteKit
 
 class GameScene: SGScene {
   override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = lt("Language")
-        myLabel.fontSize = 65
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
-        
-        self.addChild(myLabel)
-    }
-  
-  // MARK: Life Cycle
-   
-  override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
-    }
-  
-  // MARK: Responders
-  
-  override func screenInteractionStarted(location: CGPoint) {
-    // Overridden by Subclass
-  }
-  
-  override func screenInteractionMoved(location: CGPoint) {
-    // Overridden by Subclass
-  }
-  
-  override func screenInteractionEnded(location: CGPoint) {
-    // Overridden by Subclass
-  }
-  
-  override func buttonEvent(enent: String, velocity: Float, pushedOn: Bool) {
-    // Overridden by Subclass
-  }
-  
-  override func stickEvent(event: String, point: CGPoint) {
-    // Overridden by Subclass
+    // Start Background Music
+    SKTAudio.sharedInstance().playBackgroundMusic("background_music.mp3")
+    SKTAudio.sharedInstance().backgroundMusicPlayer?.volume = 0.4
+    
+    // Transition to Main Menu
+    let nextScene = MainMenu(size: self.scene!.size)
+    nextScene.scaleMode = self.scaleMode
+    self.view?.presentScene(nextScene)
+    
   }
 }

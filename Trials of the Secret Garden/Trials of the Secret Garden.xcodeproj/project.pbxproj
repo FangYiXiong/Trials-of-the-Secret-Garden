@@ -106,6 +106,9 @@
 		325F57C51D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
 		325F57C61D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
 		325F57C71D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
+		32CE57251D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
+		32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
+		32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
 		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
@@ -161,6 +164,7 @@
 		325F57B91D5ADC5200D9AA89 /* LargeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LargeMedia.xcassets; sourceTree = "<group>"; };
 		325F57BA1D5ADC5200D9AA89 /* Male.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Male.atlas; sourceTree = "<group>"; };
 		325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tiles.atlas; sourceTree = "<group>"; };
+		32CE57241D684BCF0008A879 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -251,7 +255,6 @@
 				325F573A1D59C93B00D9AA89 /* Entities */,
 				325F57391D59C93200D9AA89 /* Components */,
 				325F57381D59C92A00D9AA89 /* Scenes */,
-				325F57241D59C74700D9AA89 /* GameScene.swift */,
 			);
 			name = "Shared Game";
 			sourceTree = "<group>";
@@ -259,6 +262,8 @@
 		325F57381D59C92A00D9AA89 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				32CE57241D684BCF0008A879 /* MainMenu.swift */,
+				325F57241D59C74700D9AA89 /* GameScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				325F57841D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57581D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
 				325F57641D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
+				32CE57251D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F57671D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
 				325F574F1D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57701D59CA9100D9AA89 /* Vector3.swift in Sources */,
@@ -614,6 +620,7 @@
 				325F57271D59C74700D9AA89 /* GameViewController.swift in Sources */,
 				325F575A1D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
 				325F57661D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
+				32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F57691D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
 				325F57511D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57721D59CA9100D9AA89 /* Vector3.swift in Sources */,
@@ -640,6 +647,7 @@
 				325F57681D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
 				325F57501D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57591D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
+				32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F576E1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
 				325F57651D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				325F57531D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
