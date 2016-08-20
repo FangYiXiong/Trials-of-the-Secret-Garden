@@ -13,6 +13,14 @@ class GamePlayMode: SGScene{
   //Layers
   
   //State Machine
+  lazy var stateMachine: GKStateMachine = GKStateMachine(states: [
+    GameSceneInitialState(scene: self),
+    GameSceneActiveState(scene: self),
+    GameScenePausedState(scene: self),
+    GameSceneVictorySeqState(scene: self),
+    GameSceneWinState(scene: self),
+    GameSceneLoseState(scene: self)
+    ])
   
   //ECS
   
@@ -24,6 +32,12 @@ class GamePlayMode: SGScene{
   var lastDeltaTime: NSTimeInterval = 0
   
   // Controls
+  
+  //MARK: Initializer
+  
+  override func didMoveToView(view: SKView) {
+    stateMachine.enterState(GameSceneInitialState.self)
+  }
   
   //MARK: Life Cycle
   

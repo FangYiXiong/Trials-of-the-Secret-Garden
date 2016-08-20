@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323CA4BF1D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
+		323CA4C01D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
+		323CA4C11D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
 		325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E78601D59C22300BF53B4 /* AppDelegate.swift */; };
 		325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E78661D59C22300BF53B4 /* GameViewController.swift */; };
 		325E786A1D59C22300BF53B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325E78681D59C22300BF53B4 /* Main.storyboard */; };
@@ -118,6 +121,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayModeStates.swift; sourceTree = "<group>"; };
 		325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		325E78601D59C22300BF53B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		325E78661D59C22300BF53B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +294,7 @@
 		325F573B1D59C94400D9AA89 /* States */ = {
 			isa = PBXGroup;
 			children = (
+				323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */,
 			);
 			name = States;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 				325F57641D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				32CE57251D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F57671D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
+				323CA4BF1D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				325F574F1D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57701D59CA9100D9AA89 /* Vector3.swift in Sources */,
 				325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */,
@@ -631,6 +637,7 @@
 				325F57691D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
 				325F57511D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57721D59CA9100D9AA89 /* Vector3.swift in Sources */,
+				323CA4C11D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				325F57211D59C74700D9AA89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,6 +666,7 @@
 				325F576E1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
 				325F57651D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				325F57531D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
+				323CA4C01D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
