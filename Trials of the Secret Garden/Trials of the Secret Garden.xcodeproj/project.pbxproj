@@ -109,6 +109,9 @@
 		32CE57251D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
 		32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
 		32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
+		32CE57291D6851610008A879 /* GamePlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57281D6851610008A879 /* GamePlayMode.swift */; };
+		32CE572A1D6851610008A879 /* GamePlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57281D6851610008A879 /* GamePlayMode.swift */; };
+		32CE572B1D6851610008A879 /* GamePlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57281D6851610008A879 /* GamePlayMode.swift */; };
 		32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */; };
 		32E1B73F1D59C4CC0014AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */; };
 		32E1B7421D59C4CC0014AA26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E1B7401D59C4CC0014AA26 /* MainMenu.xib */; };
@@ -165,6 +168,7 @@
 		325F57BA1D5ADC5200D9AA89 /* Male.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Male.atlas; sourceTree = "<group>"; };
 		325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tiles.atlas; sourceTree = "<group>"; };
 		32CE57241D684BCF0008A879 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		32CE57281D6851610008A879 /* GamePlayMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayMode.swift; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E1B7381D59C4CC0014AA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E1B73E1D59C4CC0014AA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -262,6 +266,7 @@
 		325F57381D59C92A00D9AA89 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				32CE57281D6851610008A879 /* GamePlayMode.swift */,
 				32CE57241D684BCF0008A879 /* MainMenu.swift */,
 				325F57241D59C74700D9AA89 /* GameScene.swift */,
 			);
@@ -585,6 +590,7 @@
 				325F575E1D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F577C1D5AD07C00D9AA89 /* IOS_Responder.swift in Sources */,
 				325F57551D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
+				32CE57291D6851610008A879 /* GamePlayMode.swift in Sources */,
 				325F575B1D59CA9100D9AA89 /* SKAction+Extensions.swift in Sources */,
 				325F57871D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57611D59CA9100D9AA89 /* SKColor+Extensions.swift in Sources */,
@@ -612,6 +618,7 @@
 				325F57541D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
 				325F578D1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F576F1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
+				32CE572B1D6851610008A879 /* GamePlayMode.swift in Sources */,
 				325F576C1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
 				325F57601D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F57571D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
@@ -639,6 +646,7 @@
 				325F57561D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
 				325F578C1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F57771D5ACD3500D9AA89 /* SGScene.swift in Sources */,
+				32CE572A1D6851610008A879 /* GamePlayMode.swift in Sources */,
 				325F57361D59C7C500D9AA89 /* GameScene.swift in Sources */,
 				325F57801D5AD07C00D9AA89 /* OSX_Responder.swift in Sources */,
 				325F575C1D59CA9100D9AA89 /* SKAction+Extensions.swift in Sources */,
