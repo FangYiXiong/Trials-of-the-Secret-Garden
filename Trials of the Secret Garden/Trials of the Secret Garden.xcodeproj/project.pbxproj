@@ -124,6 +124,9 @@
 		32FAE0981D686B0100DB0229 /* TileMapLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE0971D686B0100DB0229 /* TileMapLevels.swift */; };
 		32FAE0991D686B0100DB0229 /* TileMapLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE0971D686B0100DB0229 /* TileMapLevels.swift */; };
 		32FAE09A1D686B0100DB0229 /* TileMapLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE0971D686B0100DB0229 /* TileMapLevels.swift */; };
+		32FAE09D1D686DA300DB0229 /* TileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE09C1D686DA300DB0229 /* TileLayer.swift */; };
+		32FAE09E1D686DA300DB0229 /* TileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE09C1D686DA300DB0229 /* TileLayer.swift */; };
+		32FAE09F1D686DA300DB0229 /* TileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAE09C1D686DA300DB0229 /* TileLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -186,6 +189,7 @@
 		32E1B7431D59C4CC0014AA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FAE0931D6860B900DB0229 /* TileMapBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileMapBuilder.swift; sourceTree = "<group>"; };
 		32FAE0971D686B0100DB0229 /* TileMapLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileMapLevels.swift; sourceTree = "<group>"; };
+		32FAE09C1D686DA300DB0229 /* TileLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +282,7 @@
 		325F57381D59C92A00D9AA89 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				32FAE09B1D686D6700DB0229 /* Layers */,
 				32CE57281D6851610008A879 /* GamePlayMode.swift */,
 				32CE57241D684BCF0008A879 /* MainMenu.swift */,
 				325F57241D59C74700D9AA89 /* GameScene.swift */,
@@ -427,6 +432,14 @@
 			);
 			name = "OSX Controller";
 			path = "Trials of the Secret Garden OSX";
+			sourceTree = "<group>";
+		};
+		32FAE09B1D686D6700DB0229 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				32FAE09C1D686DA300DB0229 /* TileLayer.swift */,
+			);
+			name = Layers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,6 +617,7 @@
 				325F576A1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
 				325F575E1D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F577C1D5AD07C00D9AA89 /* IOS_Responder.swift in Sources */,
+				32FAE09D1D686DA300DB0229 /* TileLayer.swift in Sources */,
 				325F57551D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
 				32CE57291D6851610008A879 /* GamePlayMode.swift in Sources */,
 				325F575B1D59CA9100D9AA89 /* SKAction+Extensions.swift in Sources */,
@@ -648,6 +662,7 @@
 				325F57661D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F57691D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
+				32FAE09F1D686DA300DB0229 /* TileLayer.swift in Sources */,
 				325F57511D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				32FAE0961D6860B900DB0229 /* TileMapBuilder.swift in Sources */,
 				325F57721D59CA9100D9AA89 /* Vector3.swift in Sources */,
@@ -679,6 +694,7 @@
 				325F57591D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
 				32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F576E1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
+				32FAE09E1D686DA300DB0229 /* TileLayer.swift in Sources */,
 				325F57651D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				32FAE0951D6860B900DB0229 /* TileMapBuilder.swift in Sources */,
 				325F57531D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,

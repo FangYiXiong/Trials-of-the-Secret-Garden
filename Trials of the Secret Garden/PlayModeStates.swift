@@ -21,6 +21,8 @@ class GameSceneInitialState: GameSceneState {
     gs.addChild(myCamera)
     
     //Layers
+    gs.worldLayer = TileLayer(levelIndex: gs.levelIndex, typeIndex: .setMain)
+    gs.addChild(gs.worldLayer)
     
   }
   

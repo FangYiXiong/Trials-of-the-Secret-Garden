@@ -11,6 +11,9 @@ class GamePlayMode: SGScene{
   //Generators
   
   //Layers
+  var worldLayer:TileLayer!
+  var backgroundLayer:SKNode!
+  var overlayGUI:SKNode!
   
   //State Machine
   lazy var stateMachine: GKStateMachine = GKStateMachine(states: [
