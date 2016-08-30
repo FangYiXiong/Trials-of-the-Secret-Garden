@@ -4,3 +4,14 @@
 
 "Enter" = "进入游戏";
 "Exit" = "退出";
+
+// Build Mode
+
+"Move" = "移动";
+"Add" = "增加";
+"Remove" = "移除";
+"Zoom Out" = "缩小";
+"Zoom In" = "放大";
+"Print" = "打印";
+"Up" = "向上";
+"Down" = "向下";

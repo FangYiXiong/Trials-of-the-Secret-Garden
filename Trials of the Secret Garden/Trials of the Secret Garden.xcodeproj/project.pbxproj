@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32371D281D752E9200F35F05 /* GameBuildMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32371D271D752E9200F35F05 /* GameBuildMode.swift */; };
+		32371D291D752E9200F35F05 /* GameBuildMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32371D271D752E9200F35F05 /* GameBuildMode.swift */; };
+		32371D2A1D752E9200F35F05 /* GameBuildMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32371D271D752E9200F35F05 /* GameBuildMode.swift */; };
 		323CA4BF1D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
 		323CA4C01D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
 		323CA4C11D6855D4007BE679 /* PlayModeStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */; };
@@ -130,6 +133,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32371D271D752E9200F35F05 /* GameBuildMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBuildMode.swift; sourceTree = "<group>"; };
 		323CA4BE1D6855D4007BE679 /* PlayModeStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayModeStates.swift; sourceTree = "<group>"; };
 		325E785D1D59C22300BF53B4 /* Trials of the Secret Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		325E78601D59C22300BF53B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 				32CE57281D6851610008A879 /* GamePlayMode.swift */,
 				32CE57241D684BCF0008A879 /* MainMenu.swift */,
 				325F57241D59C74700D9AA89 /* GameScene.swift */,
+				32371D271D752E9200F35F05 /* GameBuildMode.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -624,6 +629,7 @@
 				32FAE0941D6860B900DB0229 /* TileMapBuilder.swift in Sources */,
 				325F57871D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57611D59CA9100D9AA89 /* SKColor+Extensions.swift in Sources */,
+				32371D281D752E9200F35F05 /* GameBuildMode.swift in Sources */,
 				325F57371D59C7C500D9AA89 /* GameScene.swift in Sources */,
 				32FAE0981D686B0100DB0229 /* TileMapLevels.swift in Sources */,
 				325F578B1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
@@ -648,6 +654,7 @@
 				325F57861D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57891D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57541D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
+				32371D2A1D752E9200F35F05 /* GameBuildMode.swift in Sources */,
 				325F578D1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F576F1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
 				32CE572B1D6851610008A879 /* GamePlayMode.swift in Sources */,
@@ -680,6 +687,7 @@
 				325F57851D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57881D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57561D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
+				32371D291D752E9200F35F05 /* GameBuildMode.swift in Sources */,
 				325F578C1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F57771D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				32CE572A1D6851610008A879 /* GamePlayMode.swift in Sources */,
