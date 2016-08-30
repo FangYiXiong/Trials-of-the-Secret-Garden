@@ -83,9 +83,16 @@ struct tileMapBuilder {
       }
     }
   }
-
-  
-  
+    
+    //MARK: Builder function
+    
+    func printLayer() {
+        print("Tile Layer:")
+        for row in tileLayer {
+            print(row)
+        }
+    }
+    
 }
 
 

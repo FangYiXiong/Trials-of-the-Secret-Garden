@@ -108,6 +108,110 @@ class GameBuildMode: SGScene {
         
     }
     
+    //MARK: Responders
+    
+    override func screenInteractionStarted(location: CGPoint) {
+        
+        if let node = nodeAtPoint(location) as? SKLabelNode {
+            if node.name == "modeSelect" {
+                switch currentTool {
+                case .toolMove:
+                    node.text = lt("Add")
+                    currentTool = .toolAdd
+                    break
+                case .toolAdd:
+                    node.text = lt("Remove")
+                    currentTool = .toolRemove
+                    break
+                case .toolRemove:
+                    node.text = lt("Move")
+                    currentTool = .toolMove
+                    break
+                }
+                return
+            }
+            if node.name == "zoomOut" {
+                if let camera = camera {
+                    camera.xScale = camera.xScale + 0.2
+                    camera.yScale = camera.yScale + 0.2
+                }
+                return
+            }
+            if node.name == "zoomIn" {
+                if let camera = camera {
+                    camera.xScale = camera.xScale - 0.2
+                    camera.yScale = camera.yScale - 0.2
+                }
+                return
+            }
+            if node.name == "Up" {
+                tilePanel.position = CGPoint(x: tilePanel.position.x, y: tilePanel.position.y - 34)
+                return
+            }
+            if node.name == "Down" {
+                tilePanel.position = CGPoint(x: tilePanel.position.x, y: tilePanel.position.y + 34)
+                return
+            }
+            if node.name == "Print" {
+                worldLayer.levelGenerator.printLayer()
+                return
+            }
+        }
+        if let node = nodeAtPoint(location) as? SKSpriteNode {
+            if ((node.name?.hasPrefix("T_")) != nil) {
+                tilePanel.selectIndex((node.userData!["index"] as? Int)!)
+                return
+            }
+        }
+        
+        
+        switch currentTool {
+        case .toolMove:
+            if let camera = camera {
+                camera.runAction(SKAction.moveTo(location, duration: 0.2))
+                //print("x: \(floor(abs(location.x/32.0))) y: \(floor(abs(location.y/32.0)))")
+            }
+            break
+        case .toolAdd:
+            let locationInfo = locationToTileIndex(CGPoint(x: location.x + 16, y: location.y - 16))
+            if locationInfo.valid == true {
+                changeTile(tilePanel.selectedIndex, location: locationInfo.tileIndex)
+                updateTileMap()
+            }
+            break
+        case .toolRemove:
+            let locationInfo = locationToTileIndex(CGPoint(x: location.x + 16, y: location.y - 16))
+            if locationInfo.valid == true {
+                changeTile(0, location: locationInfo.tileIndex)
+                updateTileMap()
+            }
+            break
+        }
+    }
+    
+    //MARK: functions
+    
+    func changeTile(tileCode:Int,location:CGPoint) {
+        worldLayer.levelGenerator.setTile(position: location, toValue: tileCode)
+    }
+    
+    func updateTileMap() {
+        for child in worldLayer.children {
+            child.removeFromParent()
+        }
+        worldLayer.levelGenerator.presentLayerViaDelegate()
+    }
+    
+    func locationToTileIndex(location:CGPoint) -> (valid:Bool, tileIndex:CGPoint) {
+        let newIndex = CGPoint(x: floor(abs(location.x/32.0)), y: floor(abs(location.y/32.0)))
+        if (newIndex.x >= 0 && newIndex.x < worldLayer.levelGenerator.mapSize.x) &&
+            (newIndex.y >= 0 && newIndex.y < worldLayer.levelGenerator.mapSize.y) {
+            return (true, newIndex)
+        } else {
+            return (false, newIndex)
+        }
+    }
+
     
 }
 
