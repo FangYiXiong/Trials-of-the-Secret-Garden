@@ -26,8 +26,13 @@ class GamePlayMode: SGScene{
     ])
   
   //ECS
+  var entities = Set<GKEntity>()
   
   //Component systems
+  lazy var componentSystems: [GKComponentSystem] =  {
+    let parallaxSystem = GKComponentSystem(componentClass: ParallaxComponent.self)
+    return [parallaxSystem]
+  }()
   
   //Timers
   var lastUpdateTimeInterval: NSTimeInterval = 0
@@ -42,6 +47,23 @@ class GamePlayMode: SGScene{
     stateMachine.enterState(GameSceneInitialState.self)
   }
   
+  //MARK: Functions
+  func addEntity(entity: GKEntity,toLayer layer:SKNode) {
+    //Add Entity to set
+    entities.insert(entity)
+    
+    //Add Sprites to Scene
+    if let spriteNode = entity.componentForClass(SpriteComponent.self)?.node {
+      layer.addChild(spriteNode)
+    }
+    
+    //Add Components to System
+    for componentSystem in self.componentSystems {
+      componentSystem.addComponentWithEntity(entity)
+    }
+  
+  }
+  
   //MARK: Life Cycle
   
   override func update(currentTime: CFTimeInterval) {
@@ -52,5 +74,8 @@ class GamePlayMode: SGScene{
       lastUpdateTimeInterval = currentTime
       
       //Update game
+      for componentSystem in componentSystems {
+        componentSystem.updateWithDeltaTime(deltaTime)
+      }
   }
 }

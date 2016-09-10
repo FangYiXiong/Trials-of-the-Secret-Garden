@@ -112,6 +112,15 @@
 		325F57C51D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
 		325F57C61D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
 		325F57C71D5ADC5200D9AA89 /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */; };
+		327107701D845DD300032E0C /* BackgroundEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3271076F1D845DD300032E0C /* BackgroundEntity.swift */; };
+		327107711D845DD300032E0C /* BackgroundEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3271076F1D845DD300032E0C /* BackgroundEntity.swift */; };
+		327107721D845DD300032E0C /* BackgroundEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3271076F1D845DD300032E0C /* BackgroundEntity.swift */; };
+		327107741D845E8B00032E0C /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107731D845E8B00032E0C /* SpriteComponent.swift */; };
+		327107751D845E8B00032E0C /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107731D845E8B00032E0C /* SpriteComponent.swift */; };
+		327107761D845E8B00032E0C /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107731D845E8B00032E0C /* SpriteComponent.swift */; };
+		327107781D845FEF00032E0C /* ParallaxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107771D845FEF00032E0C /* ParallaxComponent.swift */; };
+		327107791D845FEF00032E0C /* ParallaxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107771D845FEF00032E0C /* ParallaxComponent.swift */; };
+		3271077A1D845FEF00032E0C /* ParallaxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327107771D845FEF00032E0C /* ParallaxComponent.swift */; };
 		32CE57251D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
 		32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
 		32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE57241D684BCF0008A879 /* MainMenu.swift */; };
@@ -184,6 +193,9 @@
 		325F57B91D5ADC5200D9AA89 /* LargeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LargeMedia.xcassets; sourceTree = "<group>"; };
 		325F57BA1D5ADC5200D9AA89 /* Male.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Male.atlas; sourceTree = "<group>"; };
 		325F57BB1D5ADC5200D9AA89 /* Tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tiles.atlas; sourceTree = "<group>"; };
+		3271076F1D845DD300032E0C /* BackgroundEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundEntity.swift; sourceTree = "<group>"; };
+		327107731D845E8B00032E0C /* SpriteComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
+		327107771D845FEF00032E0C /* ParallaxComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxComponent.swift; sourceTree = "<group>"; };
 		32CE57241D684BCF0008A879 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		32CE57281D6851610008A879 /* GamePlayMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayMode.swift; sourceTree = "<group>"; };
 		32E1B7361D59C4CC0014AA26 /* Trials of the Secret Garden OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trials of the Secret Garden OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,6 +310,8 @@
 		325F57391D59C93200D9AA89 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				327107731D845E8B00032E0C /* SpriteComponent.swift */,
+				327107771D845FEF00032E0C /* ParallaxComponent.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -305,6 +319,7 @@
 		325F573A1D59C93B00D9AA89 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				3271076F1D845DD300032E0C /* BackgroundEntity.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -615,6 +630,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327107781D845FEF00032E0C /* ParallaxComponent.swift in Sources */,
 				325F57761D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325E78671D59C22300BF53B4 /* GameViewController.swift in Sources */,
 				325F57521D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
@@ -632,6 +648,7 @@
 				32371D281D752E9200F35F05 /* GameBuildMode.swift in Sources */,
 				325F57371D59C7C500D9AA89 /* GameScene.swift in Sources */,
 				32FAE0981D686B0100DB0229 /* TileMapLevels.swift in Sources */,
+				327107741D845E8B00032E0C /* SpriteComponent.swift in Sources */,
 				325F578B1D5AD2B400D9AA89 /* SGGameSettings.swift in Sources */,
 				325F57841D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57581D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
@@ -641,6 +658,7 @@
 				323CA4BF1D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				325F574F1D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				325F57701D59CA9100D9AA89 /* Vector3.swift in Sources */,
+				327107701D845DD300032E0C /* BackgroundEntity.swift in Sources */,
 				325E78611D59C22300BF53B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,6 +669,7 @@
 			files = (
 				325F57781D5ACD3500D9AA89 /* SGScene.swift in Sources */,
 				325F57251D59C74700D9AA89 /* GameScene.swift in Sources */,
+				327107761D845E8B00032E0C /* SpriteComponent.swift in Sources */,
 				325F57861D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57891D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57541D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
@@ -669,9 +688,11 @@
 				325F57661D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				32CE57271D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F57691D59CA9100D9AA89 /* SKTAudio.swift in Sources */,
+				3271077A1D845FEF00032E0C /* ParallaxComponent.swift in Sources */,
 				32FAE09F1D686DA300DB0229 /* TileLayer.swift in Sources */,
 				325F57511D59CA9100D9AA89 /* CGFloat+Extensions.swift in Sources */,
 				32FAE0961D6860B900DB0229 /* TileMapBuilder.swift in Sources */,
+				327107721D845DD300032E0C /* BackgroundEntity.swift in Sources */,
 				325F57721D59CA9100D9AA89 /* Vector3.swift in Sources */,
 				323CA4C11D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				325F57211D59C74700D9AA89 /* AppDelegate.swift in Sources */,
@@ -684,6 +705,7 @@
 			files = (
 				325F575F1D59CA9100D9AA89 /* SKAction+SpecialEffects.swift in Sources */,
 				325F576B1D59CA9100D9AA89 /* SKTEffects.swift in Sources */,
+				327107751D845E8B00032E0C /* SpriteComponent.swift in Sources */,
 				325F57851D5AD11D00D9AA89 /* SGExtensions.swift in Sources */,
 				325F57881D5AD11D00D9AA89 /* SGResolution.swift in Sources */,
 				325F57561D59CA9100D9AA89 /* CGVector+Extensions.swift in Sources */,
@@ -702,9 +724,11 @@
 				325F57591D59CA9100D9AA89 /* Int+Extensions.swift in Sources */,
 				32CE57261D684BCF0008A879 /* MainMenu.swift in Sources */,
 				325F576E1D59CA9100D9AA89 /* SKTTimingFunctions.swift in Sources */,
+				327107791D845FEF00032E0C /* ParallaxComponent.swift in Sources */,
 				32FAE09E1D686DA300DB0229 /* TileLayer.swift in Sources */,
 				325F57651D59CA9100D9AA89 /* SKNode+Extensions.swift in Sources */,
 				32FAE0951D6860B900DB0229 /* TileMapBuilder.swift in Sources */,
+				327107711D845DD300032E0C /* BackgroundEntity.swift in Sources */,
 				325F57531D59CA9100D9AA89 /* CGPoint+Extensions.swift in Sources */,
 				323CA4C01D6855D4007BE679 /* PlayModeStates.swift in Sources */,
 				32E1B7391D59C4CC0014AA26 /* AppDelegate.swift in Sources */,

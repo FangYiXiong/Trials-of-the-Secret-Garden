@@ -54,7 +54,10 @@ struct GameSettings {
     /* Enter your static parameters here */
     
     struct zValues {
-      static let zWorld: CGFloat = 100.0
+      static let zBackground01:CGFloat = 10
+      static let zBackground02:CGFloat = 20
+      static let zBackground03:CGFloat = 30
+      static let zWorld:CGFloat = 100.0
     }
     
   }
