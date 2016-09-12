@@ -199,10 +199,22 @@ class TileLayer: SKNode, tileMapDelegate {
       addChild(node)
       break
     case .tileGem:
+      let node = SKNode()
+      node.position = location
+      node.name = "placeholder_Gem"
+      addChild(node)
       break
     case .tileStartLevel:
+      let node = SKNode()
+      node.position = CGPoint(x: location.x, y: location.y - 16)
+      node.name = "placeholder_StartPoint"
+      addChild(node)
       break
     case .tileEndLevel:
+      let node = SKNode()
+      node.position = location
+      node.name = "placeholder_FinishPoint"
+      addChild(node)
       break
     }
     

@@ -31,7 +31,8 @@ class GamePlayMode: SGScene{
   //Component systems
   lazy var componentSystems: [GKComponentSystem] =  {
     let parallaxSystem = GKComponentSystem(componentClass: ParallaxComponent.self)
-    return [parallaxSystem]
+    let animationSystem = GKComponentSystem(componentClass: AnimationComponent.self)
+    return [animationSystem, parallaxSystem]
   }()
   
   //Timers

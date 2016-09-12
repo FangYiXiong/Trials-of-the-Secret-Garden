@@ -19,6 +19,7 @@ class GameSceneInitialState: GameSceneState {
     let myCamera = SKCameraNode()
     gs.camera = myCamera
     gs.addChild(myCamera)
+    gs.camera?.setScale(0.44)
     
     //Layers
     gs.worldLayer = TileLayer(levelIndex: gs.levelIndex, typeIndex: .setMain)
@@ -46,6 +47,19 @@ class GameSceneInitialState: GameSceneState {
     background06.spriteComponent.node.zPosition = GameSettings.GameParams.zValues.zBackground03
     gs.addEntity(background06, toLayer:gs.backgroundLayer)
 
+    let characters = ["Male","Female"]
+    let atlas = SKTextureAtlas(named: characters[gs.characterIndex])
+    
+    if let playerPlaceholder = gs.worldLayer.childNodeWithName("placeholder_StartPoint") {
+      let player = PlayerEntity(position: playerPlaceholder.position, size: CGSize(width: 25.4, height: 48.0), firstFrame: atlas.textureNamed("Idle__000"), atlas: atlas)
+      player.spriteComponent.node.anchorPoint = CGPoint(x: 0.5, y: 0.0)
+      player.spriteComponent.node.zPosition = GameSettings.GameParams.zValues.zPlayer
+      player.animationComponent.requestedAnimationState = .Run
+      gs.centerCameraOnPoint(playerPlaceholder.position)
+      gs.addEntity(player, toLayer: gs.worldLayer)
+    } else {
+      fatalError("[Play Mode: No placeholder for player!")
+    }
     
   }
   

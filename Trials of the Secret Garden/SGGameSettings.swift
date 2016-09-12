@@ -7,6 +7,16 @@ import SpriteKit
 var gameTextures: Array<SKTextureAtlas>?
 var gameSounds: Array<SKAction>?
 
+enum AnimationState: String {
+  case Idle = "Idle_"
+  case Dead = "Dead_"
+  case Jump = "Jump_"
+  case JumpThrow = "Jump_Throw_"
+  case Run = "Run_"
+  case Slide = "Slide_"
+  case IdleThrow = "Throw_"
+}
+
 struct GameSettings {
   
   /**
@@ -58,6 +68,9 @@ struct GameSettings {
       static let zBackground02:CGFloat = 20
       static let zBackground03:CGFloat = 30
       static let zWorld:CGFloat = 100.0
+      
+      static let zWorldFront: CGFloat = 150.0
+      static let zPlayer: CGFloat = 125.0
     }
     
   }
